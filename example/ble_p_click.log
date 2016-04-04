@@ -1,0 +1,95 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -BIN -LHF -DL -SSA -O11111114 -fo140 -N"C:\Users\Viktor\Desktop\ble_blog_release\example\ble_p_click.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\" -SP"C:\Users\Viktor\Desktop\ble_blog_release\example\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"C:\Users\Viktor\Desktop\ble_blog_release\src\" -SP"C:\Users\Viktor\Desktop\ble_blog_release\include\" -IP"C:\Users\Viktor\Desktop\ble_blog_release\include\" -IP"C:\Users\Viktor\Desktop\ble_blog_release\example\" "ble_p_click.c" "aci_queue.c" "aci_setup.c" "acilib.c" "blep_hal.c" "hal_aci_tl.c" "lib_aci.c" "mikroc_interrupts.c" "ble_uart.c" "uart_aci.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_Sprinti.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45_6.emcl"	 
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from c:/users/viktor/desktop/ble_blog_release/include/hal_aci_tl.h: 46:    #include "aci.h"     from c:/users/viktor/desktop/ble_blog_release/include/lib_aci.h: 35:    #include "hal_aci_tl.h"     from c:/users/viktor/desktop/ble_blog_release/example/uart_aci.h: 26:    #include "lib_aci.h"     from c:/users/viktor/desktop/ble_blog_release/example/ble_uart.h: 26:    #include "uart_aci.h"     from C:/Users/Viktor/Desktop/ble_blog_release/example/ble_p_click.c: 2:    #include "ble_uart.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 120	123	Compiled Successfully	ble_p_click.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from c:/users/viktor/desktop/ble_blog_release/include/hal_aci_tl.h: 46:    #include "aci.h"     from C:/Users/Viktor/Desktop/ble_blog_release/src/aci_queue.c: 26:    #include "hal_aci_tl.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 194	123	Compiled Successfully	aci_queue.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from c:/users/viktor/desktop/ble_blog_release/include/hal_aci_tl.h: 46:    #include "aci.h"     from c:/users/viktor/desktop/ble_blog_release/include/lib_aci.h: 35:    #include "hal_aci_tl.h"     from C:/Users/Viktor/Desktop/ble_blog_release/src/aci_setup.c: 22:    #include <lib_aci.h>     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 144	1354	argument may be out of range [?T78]	aci_setup.c
+hint: 144	1354	argument may be out of range [?T68]	aci_setup.c
+diagnostics: 175	123	Compiled Successfully	aci_setup.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from C:/Users/Viktor/Desktop/ble_blog_release/src/acilib.c: 32:    #include "aci.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 396	1354	argument may be out of range [?T802]	acilib.c
+hint: 396	1354	argument may be out of range [?T797]	acilib.c
+hint: 397	1354	argument may be out of range [?T812]	acilib.c
+hint: 397	1354	argument may be out of range [?T807]	acilib.c
+hint: 417	1354	argument may be out of range [?T967]	acilib.c
+hint: 417	1354	argument may be out of range [?T960]	acilib.c
+hint: 449	1354	argument may be out of range [?T1116]	acilib.c
+hint: 449	1354	argument may be out of range [?T1111]	acilib.c
+hint: 450	1354	argument may be out of range [?T1126]	acilib.c
+hint: 450	1354	argument may be out of range [?T1121]	acilib.c
+hint: 462	1354	argument may be out of range [?T1163]	acilib.c
+hint: 462	1354	argument may be out of range [?T1158]	acilib.c
+hint: 468	1354	argument may be out of range [?T1181]	acilib.c
+hint: 468	1354	argument may be out of range [?T1176]	acilib.c
+hint: 469	1354	argument may be out of range [?T1191]	acilib.c
+hint: 469	1354	argument may be out of range [?T1186]	acilib.c
+hint: 505	1354	argument may be out of range [?T1315]	acilib.c
+hint: 505	1354	argument may be out of range [?T1310]	acilib.c
+hint: 513	1354	argument may be out of range [?T1406]	acilib.c
+hint: 513	1354	argument may be out of range [?T1401]	acilib.c
+hint: 537	1354	argument may be out of range [?T1515]	acilib.c
+hint: 537	1354	argument may be out of range [?T1510]	acilib.c
+hint: 562	1354	argument may be out of range [?T1622]	acilib.c
+hint: 562	1354	argument may be out of range [?T1619]	acilib.c
+diagnostics: 613	123	Compiled Successfully	acilib.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 150	123	Compiled Successfully	blep_hal.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from c:/users/viktor/desktop/ble_blog_release/include/hal_aci_tl.h: 46:    #include "aci.h"     from C:/Users/Viktor/Desktop/ble_blog_release/src/hal_aci_tl.c: 28:    #include "hal_aci_tl.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 461	123	Compiled Successfully	hal_aci_tl.c
+hint: 346	1164	Variable 'debug' has been eliminated by optimizer	hal_aci_tl.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from C:/Users/Viktor/Desktop/ble_blog_release/src/lib_aci.c: 27:    #include "aci.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 253	1354	argument may be out of range [latency_mode]	lib_aci.c
+hint: 264	1354	argument may be out of range [enter_exit_test_mode]	lib_aci.c
+hint: 330	1354	argument may be out of range [reason]	lib_aci.c
+hint: 370	1354	argument may be out of range [tx_power]	lib_aci.c
+hint: 527	1354	argument may be out of range [key_rsp_type]	lib_aci.c
+diagnostics: 762	123	Compiled Successfully	lib_aci.c
+hint: 74	1164	Variable 'byte_idx' has been eliminated by optimizer	lib_aci.c
+hint: 87	1164	Variable 'byte_idx' has been eliminated by optimizer	lib_aci.c
+hint: 227	1164	Variable 'cx_rf_interval_ms' has been eliminated by optimizer	lib_aci.c
+hint: 298	1164	Variable 'aci_stat' has been eliminated by optimizer	lib_aci.c
+hint: 399	1164	Variable 'ret_val' has been eliminated by optimizer	lib_aci.c
+hint: 426	1164	Variable 'ret_val' has been eliminated by optimizer	lib_aci.c
+hint: 424	1164	Variable 'aci_stat' has been eliminated by optimizer	lib_aci.c
+hint: 472	1164	Variable 'ret_val' has been eliminated by optimizer	lib_aci.c
+hint: 470	1164	Variable 'aci_stat' has been eliminated by optimizer	lib_aci.c
+hint: 499	1164	Variable 'ret_val' has been eliminated by optimizer	lib_aci.c
+hint: 497	1164	Variable 'aci_stat' has been eliminated by optimizer	lib_aci.c
+hint: 638	1164	Variable 'ret_val' has been eliminated by optimizer	lib_aci.c
+hint: 636	1164	Variable 'aci_stat' has been eliminated by optimizer	lib_aci.c
+hint: 650	1164	Variable 'ret_val' has been eliminated by optimizer	lib_aci.c
+hint: 648	1164	Variable 'aci_stat' has been eliminated by optimizer	lib_aci.c
+hint: 698	1164	Variable 'byte_idx' has been eliminated by optimizer	lib_aci.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 10	123	Compiled Successfully	mikroc_interrupts.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from c:/users/viktor/desktop/ble_blog_release/include/hal_aci_tl.h: 46:    #include "aci.h"     from c:/users/viktor/desktop/ble_blog_release/include/lib_aci.h: 35:    #include "hal_aci_tl.h"     from c:/users/viktor/desktop/ble_blog_release/example/uart_aci.h: 26:    #include "lib_aci.h"     from c:/users/viktor/desktop/ble_blog_release/example/ble_uart.h: 26:    #include "uart_aci.h"     from C:/Users/Viktor/Desktop/ble_blog_release/example/ble_uart.c: 55:    #include "ble_uart.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 188	123	Compiled Successfully	ble_uart.c
+hint: 79	1354	 warning: The macro is redefined     #define _aci_packed_ __attribute__((__packed__))     from c:/users/viktor/desktop/ble_blog_release/include/hal_aci_tl.h: 46:    #include "aci.h"     from c:/users/viktor/desktop/ble_blog_release/include/lib_aci.h: 35:    #include "hal_aci_tl.h"     from c:/users/viktor/desktop/ble_blog_release/example/uart_aci.h: 26:    #include "lib_aci.h"     from C:/Users/Viktor/Desktop/ble_blog_release/example/uart_aci.c: 22:    #include "uart_aci.h"     previously macro "_aci_packed_" defined as: #define _aci_packed_ 	c:\users\viktor\desktop\ble_blog_release\include\aci.h
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 65	1506	Implicit conversion of pointer to int	uart_aci.c
+warning: 66	1506	Implicit conversion of pointer to int	uart_aci.c
+warning: 67	1506	Implicit conversion of pointer to int	uart_aci.c
+warning: 69	1506	Implicit conversion of pointer to int	uart_aci.c
+hint: 206	1354	argument may be out of range [?T113]	uart_aci.c
+hint: 206	1354	argument may be out of range [?T112]	uart_aci.c
+hint: 209	1354	argument may be out of range [?T131]	uart_aci.c
+hint: 209	1354	argument may be out of range [?T130]	uart_aci.c
+diagnostics: 332	123	Compiled Successfully	uart_aci.c
+hint: 78	1164	Variable 'conn_params' has been eliminated by optimizer	uart_aci.c
+hint: 75	1164	Variable 'length' has been eliminated by optimizer	uart_aci.c
+diagnostics: 0	127	All files Compiled in 563 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 1246   Dynamic RAM (bytes): 129821	Static RAM (bytes): 1246   Dynamic RAM (bytes): 129821
+hint: 0	1144	Used ROM (bytes): 15438 (1%)  Free ROM (bytes): 1033138 (99%)	Used ROM (bytes): 15438 (1%)  Free ROM (bytes): 1033138 (99%)
+diagnostics: 0	125	Project Linked Successfully	ble_p_click.mcpar
+diagnostics: 0	128	Linked in 437 ms	 
+diagnostics: 0	129	Project 'ble_p_click.mcpar' completed: 1172 ms	 
+diagnostics: 0	103	Finished successfully: 04 Apr 2016, 10:48:12	ble_p_click.mcpar
